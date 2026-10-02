@@ -214,7 +214,7 @@ h3 {
   content:"";
   position:absolute;
   inset:0;
-  background:linear-gradient(90deg,rgba(10,34,62,.8) 0%,rgba(10,34,62,.64) 44%,rgba(18,27,29,.08) 100%),linear-gradient(0deg,rgba(10,34,62,.24),transparent 50%),url('assets/toiture-zinc-joint-debout.png') center 55%/cover no-repeat;
+  background:linear-gradient(90deg,rgba(10,34,62,.8) 0%,rgba(10,34,62,.64) 44%,rgba(18,27,29,.08) 100%),linear-gradient(0deg,rgba(10,34,62,.24),transparent 50%),url('assets/toiture-zinc-joint-debout.webp') center 55%/cover no-repeat;
   transform:scale(1.005)
 }
 .hero-content {
@@ -805,7 +805,7 @@ to {
   min-height:620px
 }
 .hero::before {
-  background:linear-gradient(90deg,rgba(10,34,62,.84),rgba(10,34,62,.42)),linear-gradient(0deg,rgba(10,34,62,.25),transparent 60%),url('assets/toiture-zinc-joint-debout.png') 57% center/cover no-repeat
+  background:linear-gradient(90deg,rgba(10,34,62,.84),rgba(10,34,62,.42)),linear-gradient(0deg,rgba(10,34,62,.25),transparent 60%),url('assets/toiture-zinc-joint-debout.webp') 57% center/cover no-repeat
 }
 .split {
   grid-template-columns:1fr;
