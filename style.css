@@ -733,6 +733,9 @@ h3 {
   color:white;
   padding:4rem 0 1.5rem
 }
+.site-footer .brand-logo {
+  filter:grayscale(1) brightness(0) invert(1)
+}
 .footer-grid {
   display:grid;
   grid-template-columns:1.3fr 1fr 1fr;
@@ -902,6 +905,9 @@ to {
 .hero-actions .button {
   width:100%
 }
+.hero-actions .button-outline {
+  display:none
+}
 .intro-grid {
   align-items:flex-start;
   flex-direction:column;
@@ -965,12 +971,13 @@ to {
   align-items:center;
   justify-content:center;
   bottom:12px;
-  left:14px;
+  left:auto;
   right:14px;
+  width:max-content;
   border-radius:var(--pill-radius);
   background:var(--blue);
   color:white;
-  padding:.78rem;
+  padding:.82rem 1.35rem;
   font-weight:700;
   box-shadow:0 8px 26px rgba(16,43,78,.25)
 }
