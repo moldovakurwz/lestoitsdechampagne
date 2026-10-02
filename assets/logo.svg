@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 150" role="img" aria-labelledby="title desc">
+  <title id="title">Les Toits de Champagne</title>
+  <desc id="desc">Couverture, zinguerie, bardage, isolation et entretien</desc>
+  <path d="M18 65 93 9l76 56" fill="none" stroke="#a85c3e" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="m92 10 77 55" fill="none" stroke="#9ba3a4" stroke-width="10" stroke-linecap="round"/>
+  <path d="M44 55v78h98V55M77 133V87h34v46" fill="none" stroke="#202a2c" stroke-width="6" stroke-linejoin="round"/>
+  <text x="198" y="64" fill="#202a2c" font-family="Arial,sans-serif" font-size="34" font-weight="700" letter-spacing=".6">LES TOITS</text>
+  <text x="198" y="105" fill="#202a2c" font-family="Arial,sans-serif" font-size="34" font-weight="700" letter-spacing=".1">DE CHAMPAGNE</text>
+  <text x="199" y="134" fill="#59645a" font-family="Arial,sans-serif" font-size="14" font-weight="600" letter-spacing="1.1">COUVERTURE · ZINGUERIE · ZINC</text>
+</svg>
