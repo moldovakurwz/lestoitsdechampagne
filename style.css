@@ -155,7 +155,7 @@ h3 {
 }
 .brand-logo {
   display:block;
-  width:190px;
+  width:133px;
   height:auto;
   max-height:none
 }
@@ -878,7 +878,7 @@ to {
 .nav {
   top:96px
 }
-.brand-logo { width:150px; max-height:none; }
+.brand-logo { width:105px; max-height:none; }
 .brand-name {
   font-size:.83rem
 }
