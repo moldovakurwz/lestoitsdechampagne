@@ -438,6 +438,25 @@ h3 {
   object-fit:contain;
   background:var(--ink)
 }
+.project-card--wide {
+  grid-column:1/-1;
+  display:grid;
+  grid-template-columns:minmax(0,1.4fr) minmax(260px,.8fr);
+  background:var(--ink)
+}
+.project-card--wide::after {
+  display:none
+}
+.project-card--wide .project-card-label {
+  position:static;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  padding:clamp(1.5rem,4vw,3rem)
+}
+.project-card--wide .project-card-label p {
+  max-width:38ch
+}
 .project-card:hover img {
   transform:scale(1.035)
 }
@@ -938,6 +957,16 @@ to {
 }
 .project-grid {
   grid-template-columns:1fr
+}
+.project-card--wide {
+  height:auto;
+  grid-template-columns:1fr
+}
+.project-card--wide img {
+  height:300px
+}
+.project-card--wide .project-card-label {
+  padding:1.5rem
 }
 .project-card,.project-card img {
   min-height:300px
